@@ -1,0 +1,187 @@
+:root{
+    --box_shadow:1px 4px 6px -1px rgba(0,0,0,0.3);
+    --black:#222;
+    --white:#ddd;
+    --green:#45AD1B;
+    --grey:#C2C2C2;
+    --ccc:#ccc;
+}
+
+
+.header-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color:black;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+
+}
+
+.section-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color:black;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+
+}
+.section-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color:black;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-text{
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.section-img{
+    max-width:500px;
+    max-height:500px;
+    position: absolute;
+    bottom:80px;
+    right:50px;
+}
+.table-box{
+    border: 5px solid #000000;
+}
+.table-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+}
+.section-header{
+    background: linear-gradient(to top left , rgba(0, 0, 0,0.1) , rgba(0, 0, 0,0.9)) , url("Dan_image/background.jpg");
+    max-width: 100%;
+    max-height:100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#white-text{
+    color:white;
+}
+.mar{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+.title-mar{
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+body {
+    background-image: url("Dan_image/sectionBG.jpg");
+    background-color: #cccccc;
+    
+   }
+table{
+    border: 5px solid #0a47ff;
+}
+ul.a {
+    list-style-type: circle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #333;  /* old IE */
+    background-color: #333;  /* Modern Browsers */
+  }
+.paragraph-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 2.0;
+
+}
+.large-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color:black;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 2.0;
+
+}
+.section-one{
+    position: relative;
+    z-index: -100;
+}
+.footer{
+    background:var(--black);
+    color:var(--white);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    padding:20px 100px 20px 100px;
+}
+
+.footer h3{
+    font-weight: 200;
+    font-size:18px;
+}
+/* paul copy */
