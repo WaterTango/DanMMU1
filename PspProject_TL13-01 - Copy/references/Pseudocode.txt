@@ -1,0 +1,98 @@
+game ideas 
+
+space tohou game:
+====================================================================================
+important things to add
+
+[  ]		fps limiter
+
+[  ]		keypressed checker
+
+[  ]		getting sprite for player and enemy
+[  ]		get or generate backgound and sfx 
+
+[  ]		usual things like rect of player and enemy
+[  ]		collisions 
+[  ]
+[  ]		implement a score system inlcuding files and scoreboard
+[  ]
+[  ]		
+
+=================================================================================================================================
+
+MAIN MENU
+	when player first open a game ask about their username
+		display main menu
+		
+		get input("press anykey to continue")
+
+
+		### this need to lean how to access and manipulate file ###
+		ask the player for username 
+			check if there is stored score
+				if true:
+					display their highscore score 
+				display name 
+					set score to 0
+				else: 
+				just display the name
+					set score to 0
+
+		level selector
+		### need to create a border and text so and check if mousedown at it ###
+			list level
+			make a rect or selector clickable acourding to their profile highscore
+			else:
+				just leave on 1 level avaiable
+
+		
+=================================================================================================================================
+GAMEPLAY
+player = human
+p1 = player ingame character
+
+player spawns on the middle of screen
+
+controls()
+
+player need to dodge falling asteroid 
+	player can shoot to kill or destroy the asteroids
+
+every second the score gets higher
+
+
+
+every time player get to a certain score
+	the background change
+	enemy get faster 
+
+
+
+		
+
+====================================================================================================================================
+CONTROLS
+	mouse and keyboard?
+	 WASD to move
+	 mouse to main and shoot
+	 	### need to make a player sprite where the front always point towards the cursor###
+		### mouse cursor need to be a dot a target ###
+		### check mouse pressed down event and create a bullet trejectory that hit enemy###
+
+
+
+
+====================================================================================================================================
+gameplay idea:	
+	rocks are randomly generated and fly closer to the player
+	after certain level or score the rock will get faster
+	player have a health bar that decreases when collide with rocks
+
+
+
+fuction or behavior:
+	background can change depend on level
+	sound effect for shooing maybe for game aouncement 
+		(like "double kill" "maniac" "rampage"
+	sprite can be get from icon archive
+	custom shooting or death sound

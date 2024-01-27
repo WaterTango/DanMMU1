@@ -1,0 +1,64 @@
+
+LEARNING MATERIALS
+https://www.youtube.com/watch?v=y9VG3Pztok8
+Get Started in Pygame in 10 minutes! - Coding with russ
+## this to learn basics of pygame and how to innitialize the pygame and basic while loop specific to pygame
+
+https://www.youtube.com/watch?v=KR2zP6yuWAs
+Pygame Event Handler Explained - Coding with russ
+## this to learm how pygame event works and how to key event such as key pressed and quitgame
+
+https://www.youtube.com/watch?v=4TfZjhw0J-8
+Pygame Sprites And Groups Explained! - Coding with russ
+## learn how does pygame sprite groups work and how to implement it
+
+https://www.youtube.com/watch?v=BHr9jxKithk
+Collisions in Pygame - Beginner Tutorial - coding with russ
+## learn how collison works and how to detect it
+
+https://realpython.com/python3-object-oriented-programming/
+#on how classes and inheritance works
+
+https://realpython.com/lessons/sprite-groups/
+#sprite groups
+
+GENERAL STUFF
+https://www.pygame.org/docs/ref/sprite.html
+#for sprite functions
+
+https://www.pygame.org/docs/ref/draw.html
+#drawing sprites
+
+https://www.pygame.org/docs/ref/image.html
+#images
+
+https://www.pygame.org/docs/ref/music.html 
+#how to load sounds and musics
+
+    Python
+    https://www.youtube.com/watch?v=rJzjDszODTI
+    Learn Classes in Python in 4 Minutes - Hallden
+    #this to revise on how class works
+
+https://github.com/nealholt/python_programming_curricula/tree/master/CS1
+#this github rep cointains many tutorial and lesson that helps
+
+
+PSP LECTURE NOTES
+lecture 05 ~ lecture 10
+
+EXAMPLES FROM OTHERS
+https://www.youtube.com/watch?v=V94LuTvk-QU
+Python Asteroid Game in Under 75 Lines of Code!! - lifegramming
+## this one act an exmaple on pygame structure
+
+
+Assets Sources
+https://www.fesliyanstudios.com/royalty-free-music/downloads-c/8-bit-music/6
+#for background music
+
+https://www.fontspace.com/
+#for game font
+
+https://www.iconarchive.com/
+for sprites and icons
